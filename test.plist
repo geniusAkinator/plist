@@ -1,51 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>智云小区.ipa</key>
-	<array>
-		<dict>
-			<key>architectures</key>
-			<array>
-				<string>arm64</string>
-			</array>
-			<key>certificate</key>
-			<dict>
-				<key>SHA1</key>
-				<string>986F2B4824E268F1DE0753F5CE5E7220297D9827</string>
-				<key>dateExpires</key>
-				<string>2020/6/18</string>
-				<key>type</key>
-				<string>iOS Distribution</string>
-			</dict>
-			<key>entitlements</key>
-			<dict>
-				<key>application-identifier</key>
-				<string>6A3GFU3MBU.com.zrideal.zyxq</string>
-				<key>aps-environment</key>
-				<string>production</string>
-				<key>com.apple.developer.team-identifier</key>
-				<string>6A3GFU3MBU</string>
-				<key>get-task-allow</key>
-				<false/>
-			</dict>
-			<key>name</key>
-			<string>智云小区.app</string>
-			<key>profile</key>
-			<dict>
-				<key>UUID</key>
-				<string>a9e7d970-cca6-4348-8e15-270fd341e970</string>
-				<key>name</key>
-				<string>iOS Team Ad Hoc Provisioning Profile: com.zrideal.zyxq</string>
-			</dict>
-			<key>team</key>
-			<dict>
-				<key>id</key>
-				<string>6A3GFU3MBU</string>
-				<key>name</key>
-				<string>Suzhou Zrideal Information Technology CO., LTD.</string>
-			</dict>
-		</dict>
-	</array>
-</dict>
+  <dict>
+      <key>items</key>
+      <array>
+        <dict>
+           <key>assets</key>
+           <array>
+             <dict>
+               <key>kind</key>
+               <string>software-package</string>
+               <key>url</key>
+               <string><![CDATA[https://we.zy178.cn/addons/rhinfo_zyxq/upfile/智云小区.ipa]]></string>
+             </dict>
+             <dict>
+               <key>kind</key>
+               <string>display-image</string>
+               <key>needs-shine</key>
+               <integer>0</integer>
+               <key>url</key>
+               <string><![CDATA[https://we.zy178.cn/addons/rhinfo_zyxq/icon.jpg?v=1560942391]]></string>
+             </dict>
+             <dict>
+               <key>kind</key>
+               <string>full-size-image</string>
+               <key>needs-shine</key>
+               <true/>
+               <key>url</key>
+               <string><![CDATA[https://we.zy178.cn/addons/rhinfo_zyxq/icon.jpg?v=1560942391]]></string>
+             </dict>
+           </array>
+           <key>metadata</key>
+           <dict>
+             <key>bundle-identifier</key>
+             <string>com.zrideal.zyxq</string>
+             <key>bundle-version</key>
+             <string><![CDATA[1.0.0]]></string>
+             <key>kind</key>
+             <string>software</string>
+             <key>title</key>
+             <string><![CDATA[智云小区]]></string>
+           </dict>
+        </dict>
+      </array>
+  </dict>
 </plist>
